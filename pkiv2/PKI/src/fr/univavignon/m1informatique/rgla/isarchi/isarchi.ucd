@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="isarchi" size="848,590" id="fr.univavignon.m1informatique.rgla.isarchi" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204D6F64656C69736174696F6E504B49">
+  <children xsi:type="editmodel:ClassEditModel" name="ISComponent" location="255,231" size="157,157" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponent" runTimeClassModel="simpleName,getSimpleName(),getType(),ISComponent(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.isarchi.ISComponentType;Ljava.lang.String;),componentFromName(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;),getUnitName()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="simpleName" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponent#simpleName"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ISComponent" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponent#ISComponent(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.isarchi.ISComponentType;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="componentFromName" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponent#componentFromName(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSimpleName" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponent#getSimpleName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponent#getType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUnitName" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponent#getUnitName()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0" autoLocated="true" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedNamedObject&lt;-fr.univavignon.m1informatique.rgla.isarchi/ISComponent" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,99" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" name="ISComponentType" location="15,247" size="158,125" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponentType" runTimeClassModel="HARDWARE%,AUTHORITY%,HUMAN%,SOFTWARE%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,72">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="HARDWARE" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponentType#HARDWARE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="SOFTWARE" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponentType#SOFTWARE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="AUTHORITY" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponentType#AUTHORITY%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="HUMAN" id="fr.univavignon.m1informatique.rgla.isarchi/ISComponentType#HUMAN%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="OrganizationalUnit" location="570,247" size="242,301" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit" runTimeClassModel="simpleName,getSimpleName(),unitFromName(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;),OrganizationalUnit(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Ljava.lang.String;),getFatherUnitName(),displayCollaboratorDistinguishedNames(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;),addSon(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;),level,getLevel(),addComponent(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;),OrganizationalUnit(Ljava.lang.String;),sonUnitNames,getSonUnitNames(),getComponentNames()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="214,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="simpleName" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#simpleName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sonUnitNames" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#sonUnitNames"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="level" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#level"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="219,198">
+      <children xsi:type="editmodel:MethodEditModel" name="OrganizationalUnit" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#OrganizationalUnit(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="OrganizationalUnit" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#OrganizationalUnit(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFatherUnitName" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#getFatherUnitName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSimpleName" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#getSimpleName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLevel" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#getLevel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSonUnitNames" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#getSonUnitNames()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unitFromName" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#unitFromName(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addSon" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#addSon(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="displayCollaboratorDistinguishedNames" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#displayCollaboratorDistinguishedNames(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getComponentNames" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#getComponentNames()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addComponent" id="fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit#addComponent(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedNamedObject&lt;-fr.univavignon.m1informatique.rgla.isarchi/OrganizationalUnit" source="//@children.2" target="//@children.0/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="221,99"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="DistinguishedNamedObject" location="370,30" size="234,99" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedNamedObject" runTimeClassModel="DistinguishedNamedObject(Ljava.lang.String;),getDN()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,36">
+      <children xsi:type="editmodel:MethodEditModel" name="DistinguishedNamedObject" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedNamedObject#DistinguishedNamedObject(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDN" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedNamedObject#getDN()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DistinguishedName" location="345,435" size="234,135" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedName" runTimeClassModel="getName(),name,DistinguishedName(Ljava.lang.String;),getDNO()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedName#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,54">
+      <children xsi:type="editmodel:MethodEditModel" name="DistinguishedName" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedName#DistinguishedName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDNO" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedName#getObject()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.univavignon.m1informatique.rgla.directory/DistinguishedName#getName()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

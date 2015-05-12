@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="fr.univavignon.m1informatique.rgla.pki" size="1011,370" id="." metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020504B492F7561707639393034383630">
+  <children xsi:type="editmodel:PackageEditModel" name="fr.univavignon.m1informatique.rgla.pki" location="239,155" size="334,60" id="fr.univavignon.m1informatique.rgla.pki">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univavignon.m1informatique.rgla.pki-Soyatec::Import->fr.univavignon.m1informatique.rgla.pki.types" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="261,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,60"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univavignon.m1informatique.rgla.pki-Soyatec::Import->fr.univavignon.m1informatique.rgla.directory" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,60" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="284,0"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.0/@sourceConnections.1" name="fr.univavignon.m1informatique.rgla.directory" location="50,261" size="380,60" id="fr.univavignon.m1informatique.rgla.directory"/>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.0/@sourceConnections.0" name="fr.univavignon.m1informatique.rgla.pki.types" location="429,50" size="381,60" id="fr.univavignon.m1informatique.rgla.pki.types"/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=fr.univavignon.m1informatique.rgla.pki;wireOptions=4;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

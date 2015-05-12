@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="simple" size="972,520" id="fr.univavignon.m1informatique.rgla.pki.simple" metadata="uml2-1.0" initialized="true" zoom="1.5" scrolledX="402" scrolledY="125" tag="1000" key="32303037303533312D3130303020706B694576616C756174696F6E2F7561707639393036323236">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1" name="CertificationAuthority" location="420,45" size="205,194" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority" runTimeClassModel="createCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.Period;Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRight;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;),CertificationAuthority(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.pki.types.Period;),isCertificateValid(Lfr.univavignon.m1informatique.rgla.pki.types.Certificate;),revokeCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRevocationRequest;),signCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.CertificateSigningRequest;),renewCertificate(J),renewCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRenewalRequest;),revokeCertificate()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,144">
+      <children xsi:type="editmodel:MethodEditModel" name="CertificationAuthority" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#CertificationAuthority(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.pki.types.Period;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#createCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.Period;Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRight;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCertificateValid" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#isCertificateValid(Lfr.univavignon.m1informatique.rgla.pki.types.Certificate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="renewCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#renewCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRenewalRequest;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="renewCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#renewCertificate(J)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="revokeCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#revokeCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRevocationRequest;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="revokeCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#revokeCertificate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="signCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority#signCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.CertificateSigningRequest;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="isPkiFinalTest" location="765,432" size="146,68" id="fr.univavignon.m1informatique.rgla.pki.simple/isPkiFinalTest" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="57,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="fr.univavignon.m1informatique.rgla.pki.simple/isPkiFinalTest#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univavignon.m1informatique.rgla.pki.simple/isPkiFinalTest-Standard::Instantiate->fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="73,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,34" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="183,106"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="StaffComponents" location="495,360" size="183,212" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents" runTimeClassModel="readBuletin(),logStaff(Ljava.lang.String;Ljava.lang.String;),initAuth(Ljava.lang.String;),sendPayCheck(Lfr.univavignon.m1informatique.rgla.pki.simple.Staff;),Connect(),addStaff(Ljava.lang.String;),StaffComponents(Ljava.lang.String;),staffList,findStaff(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="staffList" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#staffList"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Connect" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#Connect()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="StaffComponents" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#StaffComponents(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addStaff" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#addStaff(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="findStaff" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#findStaff(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initAuth" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#initAuth(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="logStaff" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#logStaff(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readBuletin" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#readBuletin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendPayCheck" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#sendPayCheck(Lfr.univavignon.m1informatique.rgla.pki.simple.Staff;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff@staffList+fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents@staffComponents" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="staffComponents" location="0,117" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff@staffList+fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents@staffComponents|fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents#staffComponents" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="staffList" location="115,87" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff@staffList+fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents@staffComponents|fr.univavignon.m1informatique.rgla.pki.simple/Staff#staffList" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" aggregationKind="Composition" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - staffList" location="213,456" size="53,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="213,483" size="18,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univavignon.m1informatique.rgla.pki.simple/StaffComponents-Standard::Instantiate->fr.univavignon.m1informatique.rgla.pki.simple/CertificationAuthority" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="73,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,194"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Staff" location="92,390" size="115,176" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff" runTimeClassModel="addBulletin(Lfr.univavignon.m1informatique.rgla.security.SignedEncryptedObject;),auth(Ljava.lang.String;Ljava.lang.String;),Staff(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.isarchi.ISComponentType;Ljava.lang.String;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.pki.types.Period;),read(),read(Lfr.univavignon.m1informatique.rgla.security.SignedEncryptedObject;),initLogInfo(Ljava.lang.String;Ljava.lang.String;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Staff" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff#Staff(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.isarchi.ISComponentType;Ljava.lang.String;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.pki.types.Period;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addBulletin" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff#addBulletin(Lfr.univavignon.m1informatique.rgla.security.SignedEncryptedObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="auth" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff#auth(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initLogInfo" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff#initLogInfo(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="read" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff#read()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="read" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff#read(Lfr.univavignon.m1informatique.rgla.security.SignedEncryptedObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.univavignon.m1informatique.rgla.pki.simple/Staff#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent&lt;-fr.univavignon.m1informatique.rgla.pki.simple/Staff" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,248"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="SecureComponent" location="60,45" size="179,248" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent" runTimeClassModel="certificate,createCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.Period;Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRight;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;),getPublicKey(),isCertificateValid(Lfr.univavignon.m1informatique.rgla.pki.types.Certificate;),getPeriod(),renewCertificate(J),read(Lfr.univavignon.m1informatique.rgla.security.SignedEncryptedObject;),getCertificate(),SecureComponent(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.isarchi.ISComponentType;Ljava.lang.String;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.pki.types.Period;),getPrivateKey(),revokeCertificate()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="certificate" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#certificate"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,180">
+      <children xsi:type="editmodel:MethodEditModel" name="SecureComponent" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#SecureComponent(Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.isarchi.ISComponentType;Ljava.lang.String;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;Lfr.univavignon.m1informatique.rgla.pki.types.Period;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#createCertificate(Lfr.univavignon.m1informatique.rgla.pki.types.Period;Lfr.univavignon.m1informatique.rgla.pki.types.CertificateRight;Lfr.univavignon.m1informatique.rgla.directory.DistinguishedName;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#getCertificate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPeriod" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#getPeriod()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPrivateKey" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#getPrivateKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPublicKey" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#getPublicKey()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCertificateValid" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#isCertificateValid(Lfr.univavignon.m1informatique.rgla.pki.types.Certificate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="read" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#read(Lfr.univavignon.m1informatique.rgla.security.SignedEncryptedObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="renewCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#renewCertificate(J)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="revokeCertificate" id="fr.univavignon.m1informatique.rgla.pki.simple/SecureComponent#revokeCertificate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
